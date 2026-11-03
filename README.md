@@ -61,7 +61,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread("C:\\Users\\manas\\OneDrive\\Desktop\\Manasa\\image.jpg") 
+image = cv2.imread("Ferrari.jpg") 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
@@ -69,7 +69,7 @@ plt.title('Original Image')
 plt.axis('off')
 ```
 
-### ii)Sobel Edge Detector
+### ii) Sobel Edge Detector
 - Detects edges in horizontal and vertical directions  
 - Produces gradient-based edge map
 ```
@@ -80,7 +80,7 @@ plt.imshow(sobel_combined, cmap='gray')
 plt.title('Sobel Edge Detection')
 plt.axis('off')
 ```
-###  iii)Canny Edge Detector
+###  iii) Canny Edge Detector
 - Multi-stage edge detection  
 - Produces clean and thin edges  
 ```
@@ -89,7 +89,7 @@ plt.imshow(canny_edges, cmap='gray')
 plt.title('Canny Edge Detection')
 plt.axis('off')
 ```
-###  iv)Prewitt Edge Detector
+###  iv) Prewitt Edge Detector
 - Similar to Sobel but simpler kernel  
 - Detects directional edges
 ```
@@ -115,7 +115,7 @@ plt.axis('off')
 
 ```
 
-###  v)Roberts Edge Detector
+###  v) Roberts Edge Detector
 - Detects edges using diagonal gradients  
 - Sensitive to noise  
 ```
@@ -143,7 +143,7 @@ plt.axis('off')
 plt.show()
 ```
 
-### vi)Laplacian Edge Detector
+### vi) Laplacian Edge Detector
 - Detects edges using second-order derivatives  
 - Highlights rapid intensity changes
 ```
@@ -158,24 +158,40 @@ plt.axis('off')
 
 ### Original Image
 
+<img width="1638" height="1032" alt="image" src="https://github.com/user-attachments/assets/946632ff-5510-4518-8ffa-d16015f92121" />
 
+
+<br>
 
 ###  Sobel Edge Detector
 
+<img width="1644" height="1056" alt="image" src="https://github.com/user-attachments/assets/5cf0f656-f8ac-4b73-9b80-f3d5470cad5f" />
+
+<br>
 
 ###  Canny Edge Detector
 
+<img width="1662" height="1053" alt="image" src="https://github.com/user-attachments/assets/27120427-a5be-4e68-ac98-7c0fcf9d99ac" />
+
+<br>
 
 ###  Prewitt Edge Detector
 
+<img width="1650" height="1047" alt="image" src="https://github.com/user-attachments/assets/2c36ce5b-2d43-40d0-878a-ae3fff516441" />
+
+<br>
 
 ###  Roberts Edge Detector
 
+<img width="1563" height="969" alt="image" src="https://github.com/user-attachments/assets/a2afa5b8-c292-44a2-b56c-80312fef2f4c" />
+
+<br>
 
 ###  Laplacian Edge Detector
 
+<img width="1665" height="1086" alt="image" src="https://github.com/user-attachments/assets/cd019db3-4d13-47c3-8424-9b3c5bafc5cd" />
 
-
+<br>
 
 ---
 
